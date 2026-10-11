@@ -1,0 +1,7 @@
+Satoru Updated - a supercharged fork of the old Satoru level Editor by Treeki, Tempus, angelsl, JasonP27, Kinnay, Meorge, RoadrunnerWMC, MrRean, Grop
+
+Copyright (C) 2017 Treeki, Tempus, angelsl, JasonP27, Kinnay, Meorge, RoadrunnerWMC, MrRean, Grop
+
+Copyright (C) 2026 BlueShell
+
+Development forums: https://zenith.nsmbu.net/wiki/Main_Page
