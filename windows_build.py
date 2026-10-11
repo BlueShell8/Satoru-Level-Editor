@@ -25,8 +25,8 @@
 # Builds Satoru to a Windows binary (*.exe)
 # Use the values below to configure the release:
 
-PackageName = 'satoru_nsmbu_03_UPDATED' # This is the name of the folder that will be created in the "distrib" folder
-Version = '0.3' # This must be a valid float in string format
+PackageName = 'satoru_nsmbu_02_UPDATED' # This is the name of the folder that will be created in the "distrib" folder
+Version = '0.2' # This must be a valid float in string format
 
 
 ################################################################
@@ -143,7 +143,7 @@ shutil.copytree('satorudata', dir_ + '/satorudata')
 shutil.copytree('satoruextras', dir_ + '/satoruextras')
 shutil.copy('license.txt', dir_)
 shutil.copy('readme.md', dir_)
-
+shutil.copy('license_short.txt', dir_) 
 # Fix for missing libEGL.dll in working directory
 if os.path.isfile('libEGL.dll') and not os.path.isfile(dir_ + '/libEGL.dll'):
     shutil.copy('libEGL.dll', dir_)
